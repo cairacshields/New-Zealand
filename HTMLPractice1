@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title> Practice 1</title>
+		<meta charset="utf-8">
+		<!--Bootstrap is mobile first, so we need to add this meta tag to ensure proper rendering on touch-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="cssfile.css">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<style>
+			.jumbotron{
+				background: url("http://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=crop&width=1280&securitytoken=0EBF11BAE58B98B56AF6A0A86BA1991A");
+				margin: 0 auto;
+				background-size:cover;
+				text-align: center;
+
+				}
+
+			h1{
+				font-size:20px;
+				font-family: 'Fjalla One', sans-serif;
+				}
+			p{
+				font-family: 'Fjalla One', sans-serif;
+				}
+			
+
+		</style>
+	</head>
+	<body>
+
+		<div class="jumbotron">
+			<header>
+				<h1> We hope you enjoy New Zealand</h1>
+				<p> Filled with exciting nature experiences, we look forward to seeing you!</p>
+			</header>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="contianer-fluid"
+				<div class="navbar-header">
+					<a class="navbar-brand" href="HTMLPractice1.html">New Zealand Trips</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#"> Home </a></li>
+					<li> <a href="#">Plan a Trip</a></li>
+					<li><a href="#">Tour Spots</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</nav>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="http://matadornetwork.com/wp-content/uploads/2011/05/20100615-roads11.jpg" class="thumbnail">
+						<p>Spectacular Scenery</p>
+						<img src="http://matadornetwork.com/wp-content/uploads/2011/05/20100615-roads11.jpg" style="width:150dp; height:150dp">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/6/61/Emerald_Lakes,_New_Zealand.jpg" class="thumbnail">
+						<p>The Emerald Lakes, Mt Tongariro</p>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Emerald_Lakes,_New_Zealand.jpg" style="width:150dp; height:150dp">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/e/e2/Queenstown_from_Bob's_Peak.jpg" class="thumbnail">
+						<p>Queenstown at night</p>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Queenstown_from_Bob's_Peak.jpg" style="width:150dp; height:150dp">
+					</a>
+				</div>
+			</div>
+	</body>
+</html>
